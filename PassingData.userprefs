@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Droid/PassingData.Droid.csproj" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PassingData/CalculatePage.cs">
+    <Files>
+      <File FileName="PassingData/CalculatePage.cs" Line="38" Column="18" />
+      <File FileName="PassingData/CalculatePage.xaml" Line="8" Column="3" />
+      <File FileName="PassingData/MainPage.xaml" Line="20" Column="26" />
+      <File FileName="PassingData/MainPage.xaml.cs" Line="70" Column="25" />
+      <File FileName="PassingData/SecondPage.xaml" Line="11" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PassingData.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_ARMv7a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PassingData.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1C8DB9F5-53B5-409A-B411-DFA2B761892A" />
+</Properties>

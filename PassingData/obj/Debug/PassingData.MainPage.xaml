@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="PassingData.MainPage"
+			BackgroundColor="#FFFFFF">
+	<!--
+	<ContentPage.ToolbarItems>
+	  <ToolbarItem Name="Menu1" Activated="OnClick"  Order="Secondary" Priority="0" />
+	  <ToolbarItem Name="Menu2" Activated="OnClick"  Order="Secondary" Priority="1" />
+ 	</ContentPage.ToolbarItems> -->
+	
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="CenterAndExpand">
+			<StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+			</StackLayout>
+			<Button x:Name="navigateButton" 
+				Text="Calculate" 
+				TextColor="#999999" 
+				FontSize="30" 
+				Clicked="toCalculate"
+				HorizontalOptions="Center" 
+				WidthRequest="250" 
+				HeightRequest="70" 
+				BackgroundColor="#F8F8F8"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
