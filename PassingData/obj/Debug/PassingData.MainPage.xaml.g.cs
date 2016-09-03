@@ -20,9 +20,13 @@ namespace PassingData {
         private global::Xamarin.Forms.Button navigateButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView listView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             navigateButton = this.FindByName <global::Xamarin.Forms.Button>("navigateButton");
+            listView = this.FindByName <global::Xamarin.Forms.ListView>("listView");
         }
     }
 }

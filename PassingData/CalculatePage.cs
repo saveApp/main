@@ -16,7 +16,7 @@ namespace PassingData
 				FontSize = 20 };
 			var entryAvailableCash = new Entry { TextColor=Color.FromHex("#999999"), Placeholder = "AUD", 
 				PlaceholderColor=Color.FromHex("#DADADA"), Keyboard=Keyboard.Numeric, 
-				BackgroundColor=Color.FromHex("#F8F8F8"), MinimumWidthRequest=250};
+				BackgroundColor=Color.FromHex("#eceff1"), MinimumWidthRequest=300};
 			var labelDate = new Label
 			{
 				Text = "Date of Next Payday",
@@ -26,7 +26,7 @@ namespace PassingData
 			var datePicker = new DatePicker
 			{
 				Format = "D",
-				BackgroundColor = Color.FromHex("#F8F8F8"),
+				BackgroundColor = Color.FromHex("#eceff1"),
 				Margin = new Thickness(0, 0, 0, 0),
 				TextColor = Color.FromHex("#999999"),
 				MinimumDate = DateTime.Now
@@ -43,15 +43,15 @@ namespace PassingData
 				Placeholder = "AUD",
 				PlaceholderColor = Color.FromHex("#DADADA"),
 				Keyboard = Keyboard.Numeric,
-				BackgroundColor = Color.FromHex("#F8F8F8"),
-				MinimumWidthRequest = 250
+				BackgroundColor = Color.FromHex("#eceff1"),
+				MinimumWidthRequest = 300
 			};
 			var submitButton = new Button
 			{
 				Text = "Calculate",
 				TextColor = Color.FromHex("#FFFFFF"),
 				FontSize = 30,
-				WidthRequest = 250,
+				WidthRequest = 300,
 				HeightRequest = 70,
 				Margin = new Thickness(0,20,0,0),
 				BackgroundColor = Color.FromHex("#3FA9F5")

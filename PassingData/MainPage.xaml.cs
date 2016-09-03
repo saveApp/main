@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace PassingData
@@ -65,6 +66,26 @@ namespace PassingData
 			else {
 				ToolbarItems.Add(buttonLogIn);
 			}
+
+			listView.ItemsSource = new List<NewsModel> {
+				new NewsModel{
+					id = 0,
+					newsName="How to join MLM",
+					newsURL="asu.com",
+					newsIMGURL="hono",
+					newsContent="kapal Pesiar"
+				}, new NewsModel{
+					id = 6,
+					newsName="How to not join MLM",
+					newsURL="asu.com",
+					newsIMGURL="hono",
+					newsContent="kapal Pesiar"
+				}
+			};
+			listView.ItemSelected += (sender, e) =>{
+				DisplayAlert("Item selected!", (e.SelectedItem as NewsModel).id.ToString(), "hehe");
+			};
+
 
 		}
 		async void toCalculate(object sender, EventArgs e)

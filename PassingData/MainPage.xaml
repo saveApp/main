@@ -3,25 +3,41 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 			 x:Class="PassingData.MainPage"
 			BackgroundColor="#FFFFFF">
-	<!--
-	<ContentPage.ToolbarItems>
-	  <ToolbarItem Name="Menu1" Activated="OnClick"  Order="Secondary" Priority="0" />
-	  <ToolbarItem Name="Menu2" Activated="OnClick"  Order="Secondary" Priority="1" />
- 	</ContentPage.ToolbarItems> -->
 	
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="CenterAndExpand">
-			<StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-			</StackLayout>
-			<Button x:Name="navigateButton" 
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+			<StackLayout WidthRequest="250">
+				<Button x:Name="navigateButton" 
 				Text="Calculate" 
 				TextColor="#999999" 
 				FontSize="30" 
 				Clicked="toCalculate"
-				HorizontalOptions="Center" 
 				WidthRequest="250" 
 				HeightRequest="70" 
-				BackgroundColor="#F8F8F8"/>
+				BackgroundColor="#eceff1"/>
+			</StackLayout>
+			<StackLayout>
+				<ListView x:Name="listView" 
+						HeightRequest="200"
+						WidthRequest="300">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+								<StackLayout BackgroundColor="#eceff1">
+									<Grid BackgroundColor="#FFFFFF"
+											HeightRequest="5"/>
+									<Label Text="{Binding newsName}" 
+										TextColor="#999999" 
+										VerticalOptions="Center"
+										FontSize="20"
+										Margin="5,0,0,0"/>
+								</StackLayout>
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView></StackLayout>
 		</StackLayout>
 	</ContentPage.Content>
+
+	
 </ContentPage>

@@ -2,16 +2,16 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/dennisdarwis/Downloads/PassingData/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
