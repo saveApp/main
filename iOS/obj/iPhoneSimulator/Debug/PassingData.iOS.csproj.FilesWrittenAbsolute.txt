@@ -41,3 +41,5 @@
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/PassingData.dll
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/PassingData.dll.mdb
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/RestSharp.Portable.Core.dll
+/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/RestSharp.Portable.WebRequest.dll

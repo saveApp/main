@@ -37,6 +37,16 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
+	/Users/dennisdarwis/saveApp/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Runtime.Serialization.dll \
+	-r \
+	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
@@ -309,9 +319,13 @@
 	-r \
 	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
+	/Users/dennisdarwis/saveApp/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/Newtonsoft.Json.dll \
+	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
+	-r \
+	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
+	-r \
+	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug//PassingDataiOS.exe \
