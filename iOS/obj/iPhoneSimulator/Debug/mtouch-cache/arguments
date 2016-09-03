@@ -310,6 +310,8 @@
 	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
+	-r \
+	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/Newtonsoft.Json.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug//PassingDataiOS.exe \

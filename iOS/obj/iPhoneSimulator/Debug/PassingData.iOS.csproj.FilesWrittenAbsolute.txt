@@ -40,3 +40,4 @@
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/PassingData.dll
 /Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/PassingData.dll.mdb
+/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
