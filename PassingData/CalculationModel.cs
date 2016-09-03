@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PassingData
 {
-    class CalculationModel
+    public class CalculationModel
     {
+        public DateTime datenow { get; set; }
+        public int money { get; set; }
+        public DateTime datesave { get; set; }
+        public int expense { get; set; }
+        public int moneyMax { get; set; }
+
+
+
     }
 }
