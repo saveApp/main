@@ -26,7 +26,7 @@
 								<StackLayout BackgroundColor="#eceff1">
 									<Grid BackgroundColor="#FFFFFF"
 											HeightRequest="5"/>
-									<Label Text="{Binding newsName}" 
+									<Label Text="{Binding newsTitle}" 
 										TextColor="#999999" 
 										VerticalOptions="Center"
 										FontSize="20"

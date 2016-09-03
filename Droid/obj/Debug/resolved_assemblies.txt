@@ -45,7 +45,6 @@
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
-/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
@@ -54,3 +53,4 @@
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
 /Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/Mono.CSharp.dll
+/Users/dennisdarwis/saveApp/main/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll

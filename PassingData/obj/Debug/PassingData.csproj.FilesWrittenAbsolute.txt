@@ -13,3 +13,6 @@
 /Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/Newtonsoft.Json.dll
+/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/System.Net.Http.dll
+/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/System.Net.Http.Primitives.dll
+/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/System.Net.Http.Extensions.dll

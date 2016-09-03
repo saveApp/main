@@ -12,8 +12,8 @@ namespace PassingData
 		[JsonProperty("id")]
 		public int id { get; set; }
 
-		[JsonProperty("newsName")]
-		public string newsName { get; set; }
+		[JsonProperty("newsTitle")]
+		public string newsTitle { get; set; }
 
 		[JsonProperty("newsURL")]
 		public string newsURL { get; set; }
