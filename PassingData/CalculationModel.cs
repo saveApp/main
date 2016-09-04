@@ -12,8 +12,8 @@ namespace PassingData
         public int money { get; set; }
         public DateTime datesave { get; set; }
         public int expense { get; set; }
-        public int moneyMax { get; set; }
-
+        public int saveMoney { get; set; }
+        //public String id { get;,set; }
 
 
     }
