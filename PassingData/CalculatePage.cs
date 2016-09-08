@@ -116,9 +116,9 @@ namespace PassingData
                 datenow = DateTime.Now,
                 expense = int.Parse(entryExpense.Text)
             };
-			var toCalulate = new Result();
-			toCalulate.BindingContext = duit;
-			await Navigation.PushAsync(new Result());
+			var toCalculate = new Result();
+			toCalculate.BindingContext = duit;
+			await Navigation.PushAsync(toCalculate);
 
         }
     }
