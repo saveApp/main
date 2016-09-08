@@ -63,7 +63,7 @@ namespace PassingData
             };
             var labelExpense = new Label
             {
-                Text = "Cash to be Saved",
+                Text = "Expense",
                 TextColor = Color.FromHex("#85817E"),
                 FontSize = 20
             };
@@ -102,11 +102,11 @@ namespace PassingData
             content.Children.Add(entryExpense);
             content.Children.Add(submitButton);
 
+
         }
 
-        private void OnSubmitButtonClicked(object sender, EventArgs e)
+        async void OnSubmitButtonClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
 
             var duit = new CalculationModel
             {
@@ -116,6 +116,10 @@ namespace PassingData
                 datenow = DateTime.Now,
                 expense = int.Parse(entryExpense.Text)
             };
+			var toCalulate = new Result();
+			toCalulate.BindingContext = duit;
+			await Navigation.PushAsync(new Result());
+
         }
     }
 }

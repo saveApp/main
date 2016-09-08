@@ -18,7 +18,7 @@ namespace PassingData
 	{
 		private List<NewsModel> mItems = null;
 		// CHECK IF LOGGED IN OR NOT
-		bool logged = true;
+		bool logged = false;
 
 
 		public MainPage ()
@@ -80,8 +80,8 @@ namespace PassingData
 			};
 			buttonLogIn.Clicked += (object sender, System.EventArgs e) =>
 				{
-					logged = true;
-					this.DisplayAlert("Selected!", "LogIn", "OK");
+					Navigation.InsertPageBefore(new Login(), this);
+					Navigation.PopToRootAsync();
 				};
 
 			if (logged)

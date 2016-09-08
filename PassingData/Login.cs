@@ -56,7 +56,7 @@ namespace PassingData
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPageCS("sa"), this);
+                Navigation.InsertPageBefore(new MainPage(), this);
                 await Navigation.PopAsync();
             }
             else
