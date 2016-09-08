@@ -44,7 +44,7 @@ namespace PassingData
                 BackgroundColor = Color.FromHex("#eceff1"),
                 Margin = new Thickness(0, 0, 0, 0),
                 TextColor = Color.FromHex("#999999"),
-                MinimumDate = DateTime.Now
+				MinimumDate = DateTime.Now.AddDays(1)
             };
             var labelCashToSave = new Label
             {
@@ -107,18 +107,24 @@ namespace PassingData
 
         async void OnSubmitButtonClicked(object sender, EventArgs e)
         {
+			try
+			{
 
-            var duit = new CalculationModel
-            {
-                saveMoney = int.Parse(entryCashToSave.Text),
-                money = int.Parse(entryAvailableCash.Text),
-                datesave = datePicker.Date,
-                datenow = DateTime.Now,
-                expense = int.Parse(entryExpense.Text)
-            };
-			var toCalculate = new Result();
-			toCalculate.BindingContext = duit;
-			await Navigation.PushAsync(toCalculate);
+				var duit = new CalculationModel
+				{
+					saveMoney = int.Parse(entryCashToSave.Text),
+					money = int.Parse(entryAvailableCash.Text),
+					datesave = datePicker.Date,
+					datenow = DateTime.Now,
+					expense = int.Parse(entryExpense.Text)
+				};
+				var toCalculate = new Result(duit);
+				await Navigation.PushAsync(toCalculate);
+			}catch (ArgumentNullException)
+			{
+				await DisplayAlert("Alert", "One or more entry is INVALID", "OK");
+			}
+
 
         }
     }
