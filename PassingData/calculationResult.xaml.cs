@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace PassingData
 {
-    public partial class calculationResult : ContentPage
+    public partial class CalculationResult : ContentPage
     {
-        public calculationResult()
+        public CalculationResult()
         {
             InitializeComponent();
         }
