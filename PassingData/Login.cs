@@ -38,6 +38,18 @@ namespace PassingData
             loginButton.Clicked += OnLoginButtonClicked;
 
             Title = "Login";
+
+		 	Content = new StackLayout
+			 {
+				 VerticalOptions = LayoutOptions.StartAndExpand,
+				 Children = {
+					usernameEntry,
+					passwordEntry,
+					loginButton
+				}
+			 };
+
+
         }
         async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
