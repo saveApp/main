@@ -56,8 +56,8 @@ namespace PassingData
             };
 
             // Sign up logic goes here
-
-            var signUpSucceeded = AreDetailsValid(user);
+            
+            bool signUpSucceeded = await new UserService().Post(user);
             if (signUpSucceeded)
             {
                 var rootPage = Navigation.NavigationStack.FirstOrDefault();

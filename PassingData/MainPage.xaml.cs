@@ -17,8 +17,8 @@ namespace PassingData
 	public partial class MainPage : ContentPage
 	{
 		private List<NewsModel> mItems = null;
-		// CHECK IF LOGGED IN OR NOT
-		bool logged = false;
+        // CHECK IF LOGGED IN OR NOT
+        bool logged = App.IsUserLoggedIn;
 
 
 		public MainPage ()
@@ -69,7 +69,8 @@ namespace PassingData
 			buttonLogOut.Clicked += (object sender, System.EventArgs e) =>
 				{
 					logged = false;
-					this.DisplayAlert("Selected!", "LogOut", "OK");
+		
+			this.DisplayAlert("Selected!", "LogOut", "OK");
 				};
 
 			var buttonLogIn = new ToolbarItem
