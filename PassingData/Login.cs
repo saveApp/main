@@ -38,6 +38,18 @@ namespace PassingData
             loginButton.Clicked += OnLoginButtonClicked;
 
             Title = "Login";
+
+		 	Content = new StackLayout
+			 {
+				 VerticalOptions = LayoutOptions.StartAndExpand,
+				 Children = {
+					usernameEntry,
+					passwordEntry,
+					loginButton
+				}
+			 };
+
+
         }
         async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
@@ -52,7 +64,7 @@ namespace PassingData
                 Password = passwordEntry.Text
             };
 
-            bool isValid = await new UserService().Get(user);
+            var isValid = true;
             if (isValid)
             {
                 App.IsUserLoggedIn = true;

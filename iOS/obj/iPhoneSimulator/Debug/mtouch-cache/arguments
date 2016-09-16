@@ -1,10 +1,10 @@
 # Version: 9.8.2.22 (cycle7-sr1: f37444a)
-# [first argument, ignore] # /Users/dennisdarwis/saveApp/main/iOS/mtouch.exe
+# [first argument, ignore] # /Users/dennisdarwis/main/iOS/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/9.8.2.22/bin/mtouch \
 	--cache \
-	/Users/dennisdarwis/saveApp/main/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug/PassingDataiOS.app \
+	/Users/dennisdarwis/main/iOS/bin/iPhoneSimulator/Debug/PassingDataiOS.app \
 	--executable \
 	PassingDataiOS \
 	--debug \
@@ -20,36 +20,36 @@
 	--tls-provider=default \
 	--abi=i386 \
 	--symbollist \
-	/Users/dennisdarwis/saveApp/main/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	/Users/dennisdarwis/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
+	/Users/dennisdarwis/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Runtime.Serialization.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
+	/Users/dennisdarwis/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
+	/Users/dennisdarwis/main/PassingData/bin/Debug/PassingData.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -311,21 +311,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/dennisdarwis/main/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	/Users/dennisdarwis/main/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
+	/Users/dennisdarwis/main/packages/FubarCoder.RestSharp.Portable.Core.3.3.0/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10/RestSharp.Portable.Core.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
+	/Users/dennisdarwis/main/packages/FubarCoder.RestSharp.Portable.WebRequest.3.3.0/lib/Xamarin.iOS10/RestSharp.Portable.WebRequest.dll \
 	-r \
-	/Users/dennisdarwis/saveApp/main/PassingData/bin/Debug/PassingData.dll \
+	/Users/dennisdarwis/main/PassingData/bin/Debug/PassingData.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/dennisdarwis/saveApp/main/iOS/bin/iPhoneSimulator/Debug//PassingDataiOS.exe \
+	/Users/dennisdarwis/main/iOS/bin/iPhoneSimulator/Debug//PassingDataiOS.exe \
