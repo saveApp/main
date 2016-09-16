@@ -18,12 +18,12 @@ namespace PassingData
 	{
 		private List<NewsModel> mItems = null;
 		// CHECK IF LOGGED IN OR NOT
-		bool logged = false;
+		bool logged = App.IsUserLoggedIn;
 
 
-		public MainPage ()
+		public MainPage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 
 
 
@@ -69,6 +69,7 @@ namespace PassingData
 			buttonLogOut.Clicked += (object sender, System.EventArgs e) =>
 				{
 					logged = false;
+
 					this.DisplayAlert("Selected!", "LogOut", "OK");
 				};
 
@@ -99,7 +100,7 @@ namespace PassingData
 			listView.ItemSelected += async (sender, e) =>
 			{
 				var toNews = new News((e.SelectedItem as NewsModel));
-				await Navigation.PushAsync(toNews);;
+				await Navigation.PushAsync(toNews); ;
 				//DisplayAlert("Item selected!", (e.SelectedItem as NewsModel).newsContent, "hehe");
 				//DisplayAlert("Item selected!", x, "hehe");
 			};

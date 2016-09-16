@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PassingData
 {
-    class User
+    public class User
     {
 
         public string Username { get; set; }
