@@ -61,9 +61,11 @@ namespace PassingData
 			if (signUpSucceeded)
 			{
 				var rootPage = Navigation.NavigationStack.FirstOrDefault();
+				await this.DisplayAlert("SIGN UP COMPLETE", "HI "+ user.Username, "HEHE");
 				if (rootPage != null)
 				{
 					App.IsUserLoggedIn = true;
+
 					Navigation.InsertPageBefore(new MainPageCS("sa"), Navigation.NavigationStack.First());
 					await Navigation.PopToRootAsync();
 				}
