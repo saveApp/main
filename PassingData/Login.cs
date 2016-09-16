@@ -52,7 +52,7 @@ namespace PassingData
                 Password = passwordEntry.Text
             };
 
-            var isValid = true;
+            bool isValid = await new UserService().Get(user);
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
