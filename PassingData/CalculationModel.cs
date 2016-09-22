@@ -9,10 +9,10 @@ namespace PassingData
     public class CalculationModel
     {
         public DateTime datenow { get; set; }
-        public int money { get; set; }
+        public double money { get; set; }
         public DateTime datesave { get; set; }
-        public int expense { get; set; }
-        public int saveMoney { get; set; }
+		public double expense { get; set; }
+		public double saveMoney { get; set; }
         //public String id { get;,set; }
 
 

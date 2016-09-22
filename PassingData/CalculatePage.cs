@@ -29,7 +29,8 @@ namespace PassingData
                 PlaceholderColor = Color.FromHex("#DADADA"),
                 Keyboard = Keyboard.Numeric,
                 BackgroundColor = Color.FromHex("#eceff1"),
-                MinimumWidthRequest = 300
+                MinimumWidthRequest = 300,
+				Text = "0"
             };
 
             var labelDate = new Label
@@ -59,7 +60,8 @@ namespace PassingData
                 PlaceholderColor = Color.FromHex("#DADADA"),
                 Keyboard = Keyboard.Numeric,
                 BackgroundColor = Color.FromHex("#eceff1"),
-                MinimumWidthRequest = 300
+                MinimumWidthRequest = 300,
+				Text = "0"
             };
             var labelExpense = new Label
             {
@@ -67,14 +69,15 @@ namespace PassingData
                 TextColor = Color.FromHex("#85817E"),
                 FontSize = 20
             };
-            entryExpense = new Entry
-            {
-                TextColor = Color.FromHex("#999999"),
-                Placeholder = "AUD",
-                PlaceholderColor = Color.FromHex("#DADADA"),
-                Keyboard = Keyboard.Numeric,
-                BackgroundColor = Color.FromHex("#eceff1"),
-                MinimumWidthRequest = 300
+			entryExpense = new Entry
+			{
+				TextColor = Color.FromHex("#999999"),
+				Placeholder = "AUD",
+				PlaceholderColor = Color.FromHex("#DADADA"),
+				Keyboard = Keyboard.Numeric,
+				BackgroundColor = Color.FromHex("#eceff1"),
+				MinimumWidthRequest = 300,
+				Text = "0"
             };
             var submitButton = new Button
             {
@@ -109,14 +112,22 @@ namespace PassingData
         {
 			try
 			{
-
+				if (entryCashToSave.Text=="") {
+					entryCashToSave.Text = "0";
+				}
+				if (entryExpense.Text=="") {
+					entryExpense.Text = "0";
+				}
+				if (entryAvailableCash.Text=="") {
+					entryAvailableCash.Text = "0";
+				}
 				var duit = new CalculationModel
 				{
-					saveMoney = int.Parse(entryCashToSave.Text),
-					money = int.Parse(entryAvailableCash.Text),
+					saveMoney = double.Parse(entryCashToSave.Text),
+					money = double.Parse(entryAvailableCash.Text),
 					datesave = datePicker.Date,
 					datenow = DateTime.Now,
-					expense = int.Parse(entryExpense.Text)
+					expense = double.Parse(entryExpense.Text)
 				};
 				var toCalculate = new Result(duit);
 				await Navigation.PushAsync(toCalculate);

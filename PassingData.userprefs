@@ -1,19 +1,20 @@
-﻿<Properties StartupItem="Droid/PassingData.Droid.csproj" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PassingData/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{3BD9202C-2694-430C-AB5A-A54F23CE0A1F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PassingData/CalculationModel.cs">
     <Files>
-      <File FileName="PassingData/CalculatePage.cs" Line="54" Column="23" />
-      <File FileName="PassingData/CalculatePage.xaml" Line="7" Column="60" />
-      <File FileName="PassingData/MainPage.xaml" Line="29" Column="41" />
-      <File FileName="PassingData/MainPage.xaml.cs" Line="105" Column="1" />
-      <File FileName="PassingData/SecondPage.xaml" Line="11" Column="4" />
-      <File FileName="PassingData/NewsModel.cs" Line="19" Column="29" />
-      <File FileName="Droid/MainActivity.cs" Line="22" Column="1" />
+      <File FileName="PassingData/CalculatePage.cs" Line="1" Column="1" />
+      <File FileName="PassingData/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PassingData/NewsModel.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
       <File FileName="PassingData/obj/Debug/PassingData.MainPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="PassingData/Contact.cs" Line="3" Column="18" />
+      <File FileName="PassingData/Contact.cs" Line="1" Column="1" />
+      <File FileName="PassingData/CalculationModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.PassingData.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_ARMv7a" />
+  <MonoDevelop.Ide.ItemProperties.PassingData.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.LGK520179db292" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.PassingData.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1C8DB9F5-53B5-409A-B411-DFA2B761892A" />
 </Properties>

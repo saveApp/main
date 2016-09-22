@@ -1,16 +1,4 @@
 /Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/objects-8.0+.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/runtime.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/objects-8.0+.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/runtime.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/objects-8.0+.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/runtime.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/objects-8.0+.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/runtime.nib
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~ipad.storyboardc/Info-8.0+.plist
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~ipad.storyboardc/Info.plist
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~iphone.storyboardc/Info-8.0+.plist
-/Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~iphone.storyboardc/Info.plist
 /Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/dennisdarwis/main/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items

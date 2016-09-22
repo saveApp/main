@@ -31,3 +31,4 @@
 /Users/dennisdarwis/main/Droid/bin/Debug/PassingData.dll
 /Users/dennisdarwis/main/Droid/bin/Debug/PassingData.dll.mdb
 /Users/dennisdarwis/main/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/dennisdarwis/main/Droid/obj/Debug/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
