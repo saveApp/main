@@ -127,9 +127,11 @@ namespace PassingData
 					money = double.Parse(entryAvailableCash.Text),
 					datesave = datePicker.Date,
 					datenow = DateTime.Now,
-					expense = double.Parse(entryExpense.Text)
+					expense = double.Parse(entryExpense.Text),
+					username = App.Username
 				};
 				var toCalculate = new Result(duit);
+				bool success = await new CalculationService().Post(duit);
 				await Navigation.PushAsync(toCalculate);
 			}catch (ArgumentNullException)
 			{

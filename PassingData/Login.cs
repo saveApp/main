@@ -29,7 +29,8 @@ namespace PassingData
 			};
 			passwordEntry = new Entry
 			{
-				IsPassword = true
+				IsPassword = true,
+				Placeholder = "password"
 			};
 			var loginButton = new Button
 			{
@@ -68,6 +69,7 @@ namespace PassingData
 			if (isValid)
 			{
 				App.IsUserLoggedIn = true;
+				App.Username = user.Username;
 				Navigation.InsertPageBefore(new MainPage(), this);
 				await this.DisplayAlert("LOGGED IN", "HI "+user.Username, "HEHE");
 				await Navigation.PopAsync();
