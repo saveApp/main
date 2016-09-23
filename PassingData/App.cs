@@ -25,6 +25,7 @@ namespace PassingData
 			// Handle when your app resumes
 		}
         public static bool IsUserLoggedIn { get; set; }
+        public static String Username { get; set; }
     }
 }
 

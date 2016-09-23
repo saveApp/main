@@ -66,7 +66,7 @@ namespace PassingData
 				{
 					App.IsUserLoggedIn = true;
 
-					Navigation.InsertPageBefore(new MainPageCS("sa"), Navigation.NavigationStack.First());
+					Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
 					await Navigation.PopToRootAsync();
 				}
 			}
