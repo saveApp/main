@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{3BD9202C-2694-430C-AB5A-A54F23CE0A1F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="PassingData/CalculationService.cs" Line="19" Column="90" />
-      <File FileName="PassingData/NewsService.cs" Line="15" Column="46" />
-      <File FileName="PassingData/History.xaml.cs" Line="35" Column="1" />
-      <File FileName="PassingData/MainPage.xaml.cs" Line="106" Column="49" />
-      <File FileName="PassingData/Login.cs" Line="33" Column="28" />
-      <File FileName="PassingData/CalculationModel.cs" Line="22" Column="39" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.PassingData.Droid PreferredExecutionTarget="Android.4d00acd94fd7315d" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

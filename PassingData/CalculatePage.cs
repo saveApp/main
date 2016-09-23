@@ -130,6 +130,9 @@ namespace PassingData
 					expense = double.Parse(entryExpense.Text),
 					username = App.Username
 				};
+				if (duit.money < duit.saveMoney){
+					await DisplayAlert("Alert", "The ammount of cash to be saved cannot be more than available cash", "OK");
+				}
 				var toCalculate = new Result(duit);
 				bool success = await new CalculationService().Post(duit);
 				await Navigation.PushAsync(toCalculate);

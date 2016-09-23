@@ -70,9 +70,11 @@ namespace PassingData
 			{
 				App.IsUserLoggedIn = true;
 				App.Username = user.Username;
-				Navigation.InsertPageBefore(new MainPage(), this);
+
+				var toMain = new MainPage();
 				await this.DisplayAlert("LOGGED IN", "HI "+user.Username, "HEHE");
-				await Navigation.PopAsync();
+
+				await Navigation.PushAsync(toMain);
 			}
 			else
 			{

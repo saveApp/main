@@ -118,6 +118,10 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\iclauncher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\iclauncher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\iclauncher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\iclauncher.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

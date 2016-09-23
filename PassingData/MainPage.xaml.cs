@@ -24,16 +24,8 @@ namespace PassingData
 		public MainPage()
 		{
 			InitializeComponent();
-			var buttonAccount = new ToolbarItem
-			{
-				Text = "Account",
-				Order = ToolbarItemOrder.Secondary,
-				Priority = 0,
-			};
-			buttonAccount.Clicked += (object sender, System.EventArgs e) =>
-				{
-					this.DisplayAlert("Selected!", "Account", "OK");
-				};
+
+
 
 			var buttonHistory = new ToolbarItem
 			{
@@ -51,9 +43,11 @@ namespace PassingData
 			};
 			buttonLogOut.Clicked += (object sender, System.EventArgs e) =>
 				{
-					logged = false;
+					App.IsUserLoggedIn = false;
 
 					this.DisplayAlert("Selected!", "LogOut", "OK");
+					var toLogin = new MainPage();
+					Navigation.PushAsync(toLogin);
 				};
 
 			var buttonLogIn = new ToolbarItem
@@ -64,18 +58,18 @@ namespace PassingData
 			};
 			buttonLogIn.Clicked += (object sender, System.EventArgs e) =>
 				{
-					Navigation.InsertPageBefore(new Login(), this);
-					Navigation.PopToRootAsync();
+				var toLogin = new Login();
+				Navigation.PushAsync(toLogin);
 				};
 			buttonHistory.Clicked += (object sender, System.EventArgs e) =>
 			{
-				Navigation.InsertPageBefore(new History(), this);
-				Navigation.PopToRootAsync();
+				var toHistory = new History();
+				Navigation.PushAsync(toHistory);
+
 			};
 
 			if (logged)
 			{
-				ToolbarItems.Add(buttonAccount);
 				ToolbarItems.Add(buttonHistory);
 				ToolbarItems.Add(buttonLogOut);
 			}
