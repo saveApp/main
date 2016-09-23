@@ -104,5 +104,12 @@ namespace PassingData
 			};
 		}
 
+		protected override bool OnBackButtonPressed()
+		{
+
+			Navigation.InsertPageBefore(new MainPage(), this);
+			return true;
+		}
+
 	}
 }

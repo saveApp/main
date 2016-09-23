@@ -80,5 +80,11 @@ namespace PassingData
 		{
 			return (!string.IsNullOrWhiteSpace(user.Username) && !string.IsNullOrWhiteSpace(user.Password) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
 		}
+		protected override bool OnBackButtonPressed()
+		{
+
+			Navigation.InsertPageBefore(new Login(), this);
+			return true;
+		}
 	}
 }

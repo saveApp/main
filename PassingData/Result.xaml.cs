@@ -79,6 +79,12 @@ namespace PassingData
 			await Navigation.PushAsync(new MainPage());
 
 		}
+		protected override bool OnBackButtonPressed()
+		{
+
+			Navigation.InsertPageBefore(new MainPage(), this);
+			return true;
+		}
 
 	}
 }

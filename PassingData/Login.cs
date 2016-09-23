@@ -72,7 +72,7 @@ namespace PassingData
 				App.Username = user.Username;
 
 				var toMain = new MainPage();
-				await this.DisplayAlert("LOGGED IN", "HI "+user.Username, "HEHE");
+				await this.DisplayAlert("LOGGED IN", "HI "+user.Username, "OK");
 
 				await Navigation.PushAsync(toMain);
 			}
@@ -87,5 +87,11 @@ namespace PassingData
         {
             return user.Username == Constants.Username && user.Password == Constants.Password;
         }*/
+		protected override bool OnBackButtonPressed()
+		{
+
+			Navigation.InsertPageBefore(new MainPage(), this);
+			return true;
+		}
 	}
 }
